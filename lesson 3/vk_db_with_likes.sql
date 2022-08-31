@@ -95,14 +95,14 @@ CREATE TABLE media_types (
 ) COMMENT "Типы медиафайлов";
 
 CREATE TABLE media_likes (
-	media_id INT UNSIGNED NOT NULL COMMENT "Ссылка на пользователя",
-    count INT UNSIGNED COMMENT "Количество лайков пользователя"
-) COMMENT "Лайки пользователей";
+	media_id INT UNSIGNED NOT NULL COMMENT "Ссылка на медиа",
+    count INT UNSIGNED COMMENT "Количество лайков медиа"
+) COMMENT "Лайки медиа";
 
 CREATE TABLE messages_likes (
-	messages_id INT UNSIGNED NOT NULL COMMENT "Ссылка на пользователя",
-    count INT UNSIGNED COMMENT "Количество лайков пользователя"
-) COMMENT "Лайки пользователей";
+	messages_id INT UNSIGNED NOT NULL COMMENT "Ссылка на сообщение",
+    count INT UNSIGNED COMMENT "Количество лайков сообщения"
+) COMMENT "Лайки сообщений";
 
 CREATE TABLE user_likes (
 	user_id INT UNSIGNED NOT NULL COMMENT "Ссылка на пользователя",
